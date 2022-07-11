@@ -1,0 +1,22 @@
+{
+  "name": "efact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narcis13/efact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Narcis13/efact/issues"
+  },
+  "homepage": "https://github.com/Narcis13/efact#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.9"
+  }
+}
