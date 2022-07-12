@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:udt="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2" xmlns:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 ../../UBL-2.1(1)/xsd/maindoc/UBL-Invoice-2.1.xsd" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:efactura.mfinante.ro:CIUS-RO:1.0.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+  <cbc:ID>25924</cbc:ID>
+  <cbc:IssueDate>2022-07-06</cbc:IssueDate>
+  <cbc:DueDate>2022-07-06</cbc:DueDate>
+  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+  <cbc:Note>COMANDA A 293/06.07.2022
+                                                                                                                                                                                             
+
+
+
+
+. 
+
+</cbc:Note>
+  <cbc:TaxPointDate>2022-07-06</cbc:TaxPointDate>
+  <cbc:DocumentCurrencyCode>RON</cbc:DocumentCurrencyCode>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:StreetName>Str. Covasna, Nr. 31, Bl. F26, Ap. 5</cbc:StreetName>
+        <cbc:CityName>Bucuresti</cbc:CityName>
+        <cbc:CountrySubentity>RO-B</cbc:CountrySubentity>
+        <cac:Country>
+          <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>RO11110351</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>RUBICON EDITECH 89 SRL</cbc:RegistrationName>
+        <cbc:CompanyID>11110351</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Telephone>0213101245</cbc:Telephone>
+        <cbc:ElectronicMail>office@rubicon89.ro</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PostalAddress>
+        <cbc:StreetName>Str. Negru Vodă  47        -, </cbc:StreetName>
+        <cbc:CityName>Pitesti</cbc:CityName>
+        <cbc:PostalZone>110069</cbc:PostalZone>
+        <cbc:CountrySubentity>Arges</cbc:CountrySubentity>
+        <cac:Country>
+          <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>4318016</cbc:CompanyID>
+        <cac:TaxScheme />
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>UNITATEA MILITARA 02497</cbc:RegistrationName>
+        <cbc:CompanyID>4318016</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:Delivery>
+    <cac:DeliveryLocation>
+      <cac:Address>
+        <cbc:StreetName>Str. Negru Vodă  47        -, </cbc:StreetName>
+        <cbc:CityName>Pitesti</cbc:CityName>
+        <cbc:PostalZone>110069</cbc:PostalZone>
+        <cbc:CountrySubentity>RO-AG</cbc:CountrySubentity>
+        <cac:Country>
+          <cbc:IdentificationCode>RO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:DeliveryLocation>
+  </cac:Delivery>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="RON">456.80</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="RON">2404.20</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="RON">456.80</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="RON">2404.20</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="RON">2404.20</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="RON">2861.00</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="RON">2861.00</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="XPP">5.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="RON">200.35</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>MPL-120910 CATETERE TIEMANN URETRALE  CU BALONAS  CH 10</cbc:Description>
+      <cbc:Name>CATETERE TIEMANN URETRALE  CU BALONAS  CH 10</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>MPL-120910</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="RON">40.07</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="XPP">15.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="RON">601.05</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>MPL-120912 CATETER  TIEMANN URETERAL CU BALONAS CH 12</cbc:Description>
+      <cbc:Name>CATETER  TIEMANN URETERAL CU BALONAS CH 12</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>MPL-120912</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="RON">40.07</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="XPP">15.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="RON">601.05</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>MPL-120914 CATETER  TIEMANN URETERAL CU BALONAS CH 14</cbc:Description>
+      <cbc:Name>CATETER  TIEMANN URETERAL CU BALONAS CH 14</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>MPL-120914</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="RON">40.07</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="XPP">15.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="RON">601.05</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>MPL-120916 CATETER  TIEMANN URETERAL CU BALONAS CH  16</cbc:Description>
+      <cbc:Name>CATETER  TIEMANN URETERAL CU BALONAS CH  16</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>MPL-120916</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="RON">40.07</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>5</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="XPP">10.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="RON">400.70</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>MPL-120918 CATETER  TIEMANN URETERAL CU BALONAS CH 18</cbc:Description>
+      <cbc:Name>CATETER  TIEMANN URETERAL CU BALONAS CH 18</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>MPL-120918</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>19.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="RON">40.07</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

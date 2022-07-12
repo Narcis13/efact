@@ -55,9 +55,10 @@ const emptyFolder = async (folderPath) => {
           if(error === null) {
               //console.log(result.Invoice['cbc:ID'][0],result.Invoice['cac:AccountingSupplierParty'][0]['cac:Party'][0]['cac:PartyName'][0]['cbc:Name'][0]);
               let nrfact=typeof result.Invoice['cbc:ID'][0]=="string"?result.Invoice['cbc:ID'][0]:result.Invoice['cbc:ID'][0]['_']
-              let numefurnizor=result.Invoice['cac:AccountingSupplierParty'][0]['cac:Party'][0]['cac:PartyName']?result.Invoice['cac:AccountingSupplierParty'][0]['cac:Party'][0]['cac:PartyName'][0]['cbc:Name'][0]:result.Invoice['cac:AccountingSupplierParty'][0]['cac:Party'][0]['cac:PartyLegalEntity'][0]['cbc:RegistrationName'][0]['_'];
+              let reg_name=!result.Invoice['cac:AccountingSupplierParty'][0]['cac:Party'][0]['cac:PartyName']&&result.Invoice['cac:AccountingSupplierParty'][0]['cac:Party'][0]['cac:PartyLegalEntity'][0]['cbc:RegistrationName'][0]
+              let numefurnizor=result.Invoice['cac:AccountingSupplierParty'][0]['cac:Party'][0]['cac:PartyName']?result.Invoice['cac:AccountingSupplierParty'][0]['cac:Party'][0]['cac:PartyName'][0]['cbc:Name'][0]:typeof reg_name =="string"?reg_name:reg_name['_'];
              let numefisier=numefurnizor+'_'+nrfact;
-             // console.log(numefisier)
+            //  console.log(result.Invoice['cac:AccountingSupplierParty'][0]['cac:Party'][0]['cac:PartyLegalEntity'][0],numefisier)
               fs.rename(fis, path.join('./prelucrate/', numefisier+'.xml'), function(err) {
                 if ( err ) console.log('ERROR: ' + err);
             });
